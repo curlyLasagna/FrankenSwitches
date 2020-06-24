@@ -1,0 +1,13 @@
+body {
+    background: #010424;
+}
+
+.jumbotron {
+    margin: 5rem;
+    padding: 2rem;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+    

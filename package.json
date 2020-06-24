@@ -1,0 +1,16 @@
+{
+  "name": "frankenswitches",
+  "version": "1.0.0",
+  "description": "Side project that allows users to explore different frankenswitches and to post their own",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.18"
+  }
+}
