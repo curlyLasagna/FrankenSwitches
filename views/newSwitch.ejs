@@ -1,0 +1,48 @@
+<%- include('partials/header')%>
+<div class="row justify-content-center">
+    <div class="col-md-12 text-center">
+        <h1>Create a FrankenSwitch</h1>
+    </div>
+<div class="col-xs-12 col-md-6 col-lg-4">
+    <form action="/newSwitch" method="post">
+        <div class="form-group">
+            <input type="text" placeholder="Name" name="name" id="" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Image" name="image" id="" class="form-control">
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="category" value="Linear" checked>
+            <label for="category" class="form-check-label">Linear</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="category" value="Linear" checked>
+            <label for="category" class="form-check-label">Tactile</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="category" value="Linear" checked>
+            <label for="category" class="form-check-label">Clicky</label>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-lg btn-primary">Submit!</button>
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Stem" name="stem" id="" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Top Housing" name="topHouse" id="" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Bottom Housing" name="bottomHouse" id="" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Spring" name="name" id="" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Name" name="name" id="" class="form-control">
+        </div>
+    </form>
+    <a href="/index">Go back</a>
+</div>
+</div>
+<%- include('partials/footer')%>

@@ -8,6 +8,7 @@ let
         topHouse: String,
         bottomHouse: String,
         spring: String,
+        springWeight: Number,
         lubed: Boolean,
         lube: String,
         notes: String

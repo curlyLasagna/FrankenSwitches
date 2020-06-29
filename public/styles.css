@@ -1,12 +1,11 @@
-body {
-    background: #010424;
-}
-
 .jumbotron {
-    margin: 5rem;
     padding: 2rem;
 }
 
-h1 {
-    margin-bottom: 400px;
+.card {
+    width: 18rem;
+}
+
+.navbar {
+    margin-bottom: 2rem;
 }
